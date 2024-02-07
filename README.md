@@ -1,1 +1,2 @@
 # odin-recipes
+Today working through and making this simple website i have learned and solidified how to make lists, basic structuring in HTML, ways to quickly navigate my code editor (Visual Studio Code), and practiced making consise commits with details and proper syntax, i do need to figure if what i had done is the way to go for commiting or if commiting less when getting started is a better practice
