@@ -6,3 +6,30 @@ body{
     background-image: url(./imgs/rat.gif);
     background-color: darkred;
 }
+h1 {
+    color:darkcyan;
+    font-size: 44px;
+}
+.pizza {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    border-color:orange;
+    font-weight:bolder;
+}
+.toast {
+    background-image: url(./imgs/frenchtoast.jpg);
+    font-size: 20px;
+    border-color: gold;
+    border-radius: 40%;
+    
+}
+.chicken {
+    font-size: 20px;
+    outline-color: aliceblue;
+    border-color: black;
+    border-bottom-left-radius: 70%;
+    border-top-right-radius: 40%;
+    border-style: dashed;
+}
+
