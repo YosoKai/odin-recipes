@@ -1,35 +1,60 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
 }
-body{
-    background-image: url(./imgs/rat.gif);
-    background-color: darkred;
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+body {
+    background-color: darkolivegreen;
+}
+.base {
+    background-color: rgb(243, 241, 241);
+    width: 740px;
+    height: 200px;
+    margin:auto;
+    border: 1em;
 }
 h1 {
-    color:darkcyan;
     font-size: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    width: 320px;
+    margin: 18px auto;
+    background-color: rosybrown;
+    outline:ridge;
+    outline-color: rgb(143, 122, 94);
+    outline-width: 4px;
+    padding: 14px 8px;
 }
-.pizza {
-    background-color: yellow;
-    color: red;
-    font-size: 20px;
-    border-color:orange;
-    font-weight:bolder;
+.card {
+    background-color: beige;
+    outline: solid;
+    outline-color:rgb(189, 145, 106);
+    display: block;
+    width: 660px;
+    margin: 26px auto;
 }
-.toast {
-    background-image: url(./imgs/frenchtoast.jpg);
-    font-size: 20px;
-    border-color: gold;
-    border-radius: 40%;
-    
+.buttons {
+    display: inline;
+    margin: 18px;
 }
-.chicken {
+
+button {
+    margin: 8px 12px;
+    padding: 6px 10px;
     font-size: 20px;
-    outline-color: aliceblue;
-    border-color: black;
-    border-bottom-left-radius: 70%;
-    border-top-right-radius: 40%;
-    border-style: dashed;
+    border-radius: 50px;
+    background-color:  burlywood;
+    border-color: rgb(143, 122, 94);
+    border-style: double;
+}
+button:hover{
+    background-color: rgb(170, 139, 98);
 }
 
